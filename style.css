@@ -8,6 +8,9 @@ body {
 
 .container1 {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 2%;
 }
 
@@ -15,12 +18,13 @@ body {
     background-color: blueviolet;
     border: 1px solid black;
     height: 100px;
-    flex-grow: 1;
+    width: 35vw;
+    margin: 5px;
 }
 
 .container2 {
     display: flex;
-    margin-top: 25px;
+    margin-top: 50px;
     height: 300px;
     align-items: stretch;
     gap: 2%;
@@ -31,13 +35,14 @@ body {
     border: 1px solid black;
     width: 18%;
     flex-grow: 1;
+    border-radius: 10px;
 
 }
 
 .container3 {
     display: flex;
     margin-top: 25px;
-    height: 200px;
+    height: 300px;
     gap: 2%;
 }
 
@@ -68,7 +73,7 @@ body {
 .item4 {
     background-color: lightseagreen;
     border: 1px solid black;
-    flex: 0 30%;
+    width: 30%;
 
 }
 
@@ -85,6 +90,7 @@ body {
     background-color: seagreen;
     border: 1px solid black;
     width: 47.5%;
+    border-radius: 10px;
     
 }
 
@@ -109,6 +115,7 @@ body {
     border: 1px solid black;
     width: 15%;
     height: 20%;
+    border-radius: 15px;
     
 }
 
@@ -117,6 +124,7 @@ body {
     border: 1px solid black;
     width: 15%;
     height: 30%;
+    border-radius: 15px;
     
 }
 
@@ -125,7 +133,7 @@ body {
     border: 1px solid black;
     width: 15%;
     height: 65%;
-    
+    border-radius: 15px;
 }
 
 .item64 {
@@ -133,11 +141,62 @@ body {
     border: 1px solid black;
     width: 15%;
     height: 90%;
-    
+    border-radius: 15px;
 }
 .item65 {
     background-color: paleturquoise;
     border: 1px solid black;
     width: 15%;
     height: 10%;
+    border-radius: 15px;
+}
+
+.container7 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    height: 600px;
+    gap: 2%;
+    align-items: flex-start;
+}
+
+.item71 {
+    background-color: palevioletred;
+    border: 1px solid black;
+    width: 35%;
+    height: 75px;
+    border-radius: 15px;
+    
+}
+.item72 {
+    background-color: palevioletred;
+    border: 1px solid black;
+    width: 75%;
+    height: 75px;
+    border-radius: 15px;
+    
+}
+.item73 {
+    background-color: palevioletred;
+    border: 1px solid black;
+    width: 20%;
+    height: 75px;
+    border-radius: 15px;
+    
+}
+.item74 {
+    background-color: palevioletred;
+    border: 1px solid black;
+    width: 10%;
+    height: 75px;
+    border-radius: 15px;
+    
+}
+.item75 {
+    background-color: palevioletred;
+    border: 1px solid black;
+    width: 65%;
+    height: 75px;
+    border-radius: 15px;
+    
 }
